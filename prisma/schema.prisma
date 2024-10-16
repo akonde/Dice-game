@@ -27,3 +27,4 @@ model Score {
   user      User     @relation(fields: [userId], references: [id])
   createdAt DateTime @default(now())
 }
+
